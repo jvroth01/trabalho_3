@@ -39,6 +39,8 @@ while contador < 50:
         i = i + 1
         fila.append(i)
         y = y + i
+    print("Soma dos valores entre 1 e 1000000 = ", y)
+    y = 0
 
     z = 999999
     while z < 999999:  # percorre a fila no sentido contrario
